@@ -6,10 +6,9 @@ const ContactForm = ({ onSubmit }) => {
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
     const contactData = { name, number };
-    console.log(contactData);
+
     const onFormChange = (event) => {
         const { name, value } = event.target;
-
         switch (name) {
             case 'name':
                 setName(value);
