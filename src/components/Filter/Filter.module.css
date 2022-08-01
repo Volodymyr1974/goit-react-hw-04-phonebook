@@ -1,0 +1,19 @@
+.filter_label {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+.filter_input {
+  display: block;
+  width: 180px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: none;
+  outline: 1px solid rgb(146, 142, 142);
+  border-radius: 2px;
+}
+.filter_input:hover,
+.filter_input:focus {
+  outline: 2px solid rgb(135, 168, 235);
+}
